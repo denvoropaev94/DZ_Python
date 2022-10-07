@@ -7,9 +7,9 @@ from random import *
 
 k=2
 
-a = round(random()*10, )
-b = round(random()*10, )
-c = round(random()*10, )
+a = round(random()*100, )
+b = round(random()*100, )
+c = round(random()*100, )
 print(a, b, c)
 result = ''
 if b == 0: result = f"{a}*x**{k} + {c}*x**{k-2} = 0"
