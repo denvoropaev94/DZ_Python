@@ -1,6 +1,7 @@
 import telebot
+import token
 
-bot = telebot.TeleBot('5733840828:AAFDX6A3NwWlU5GD2p_4t5AEzdzPlQR3mUo')
+bot = telebot.TeleBot('MyToken')
 
 value = ''
 old_value = ''
